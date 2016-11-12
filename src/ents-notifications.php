@@ -40,4 +40,15 @@ class Am_Plugin_EntsNotifications extends Am_Plugin
             $et->sendAdmin();
         }
     }
+
+    function getReadme()
+    {
+        return <<<CUT
+This plugin adds email templates for missing functionality in aMember Pro
+
+Plugin created by ENTS (Edmonton New Technology Society)
+* Source: https://github.com/ENTS-Source/amember-notifications
+* For help and support please contact us: https://ents.ca/contact/
+CUT;
+    }
 }
