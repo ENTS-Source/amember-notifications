@@ -1,0 +1,16 @@
+<table_data name="email_template">
+    <row type="email_template">
+        <field name="name">misc.ents-notification.new_member</field>
+        <field name="lang">en</field>
+        <field name="email_template_layout_id">2</field> <!-- Admin -->
+        <field name="format">text</field>
+        <field name="subject">%site_title%: *** New Member Signup</field>
+        <field name="txt">
+A new member has been signed up:
+    Name: %user.name_f% %user.name_l%
+    Email: %user.email%
+
+%user.comment%
+        </field>
+    </row>
+</table_data>
